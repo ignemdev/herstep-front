@@ -1,0 +1,25 @@
+$primary: #EB188A;
+$secondary: #F5F5F5;
+$success: #ca5291;
+$info: #3e1247;
+$warning: #EB188A;
+$danger: #EB188A;
+$light: #fff;
+$dark: #1E1851;
+$accent : #EB188A;
+
+$focus-ring-box-shadow: 0;
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+  accent: $accent,
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

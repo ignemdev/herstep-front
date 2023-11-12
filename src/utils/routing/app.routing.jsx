@@ -1,11 +1,16 @@
 import React from 'react'
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 import HerStepApp from '@/HerStepApp';
+import Login from '@views/Login/Login';
 
 export const appRouting = createBrowserRouter([
     {
         path: '*',
         element: <Navigate to='/' replace/>
+    },
+    {
+        path: '/login',
+        element: <Login/>
     },
     {
         path: '/*',

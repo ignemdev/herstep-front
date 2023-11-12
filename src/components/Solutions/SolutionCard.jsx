@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const SolutionCard = ({ text, icon }) => {
   return (
     <div
-      className="card border-0 shadow m-3 align-self-center"
+      className="rounded-4 card border-0 shadow m-3 align-self-center"
       style={{ width: "40%" }}
     >
       <div className="card-body">

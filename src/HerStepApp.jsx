@@ -14,7 +14,7 @@ const HerStepApp = () => {
               id="content-wrapper"
               className="p-5"
               style={{
-                overflowY: "auto",
+                overflowY: "hidden",
                 maxHeight: "750px",
               }}
             >

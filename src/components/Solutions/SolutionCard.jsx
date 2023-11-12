@@ -13,7 +13,7 @@ const SolutionCard = ({ text, icon }) => {
           to={"/pasos"}
           className="d-flex justify-content-between align-items-center text-decoration-none p-3"
         >
-          <span className="text-break">{text}</span>
+          <span className="text-start">{text}</span>
           <span className="ms-5">
             <FontAwesomeIcon icon={icon} className="fs-1" />
           </span>

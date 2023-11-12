@@ -10,7 +10,7 @@ const HerStepApp = () => {
           <Sidebar />
           <div className="col p-0">
             <Headerbar />
-            <div id="content-wrapper" className="p-5">
+            <div id="content-wrapper" className="px-5 py-3">
               <Outlet />
             </div>
           </div>

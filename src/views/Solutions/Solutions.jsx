@@ -1,5 +1,6 @@
-import { faCreditCard } from "@fortawesome/free-solid-svg-icons";
 import SolutionCard from "@components/Solutions/SolutionCard";
+
+import { faCreditCard, faChartLine } from "@fortawesome/free-solid-svg-icons";
 
 const Solutions = () => {
   return (
@@ -23,44 +24,8 @@ const Solutions = () => {
                 icon={faCreditCard}
               />
               <SolutionCard
-                text={"¿Sabes que es una tarjeta de crédito?"}
-                icon={faCreditCard}
-              />
-              <SolutionCard
-                text={"¿Sabes que es una tarjeta de crédito?"}
-                icon={faCreditCard}
-              />
-              <SolutionCard
-                text={"¿Sabes que es una tarjeta de crédito?"}
-                icon={faCreditCard}
-              />
-              <SolutionCard
-                text={"¿Sabes que es una tarjeta de crédito?"}
-                icon={faCreditCard}
-              />
-              <SolutionCard
-                text={"¿Sabes que es una tarjeta de crédito?"}
-                icon={faCreditCard}
-              />
-              <SolutionCard
-                text={"¿Sabes que es una tarjeta de crédito?"}
-                icon={faCreditCard}
-              />
-              <SolutionCard
-                text={"¿Sabes que es una tarjeta de crédito?"}
-                icon={faCreditCard}
-              />
-              <SolutionCard
-                text={"¿Sabes que es una tarjeta de crédito?"}
-                icon={faCreditCard}
-              />
-              <SolutionCard
-                text={"¿Sabes que es una tarjeta de crédito?"}
-                icon={faCreditCard}
-              />
-              <SolutionCard
-                text={"¿Sabes que es una tarjeta de crédito?"}
-                icon={faCreditCard}
+                text={"¿Sabes que es un fondo de inversion?"}
+                icon={faChartLine}
               />
             </div>
           </div>

@@ -1,3 +1,5 @@
+import PortalCard from "@components/Solutions/PortalCard";
+
 const Steps = () => {
   return (
     <div className="d-flex">
@@ -13,8 +15,11 @@ const Steps = () => {
           </div>
         </div>
       </div>
-      <div className="rounded-4 card border-0 shadow m-3 align-self-start w-50">
-        <div className="card-body">xxx</div>
+      <div className="m-3 align-self-start w-75">
+        <span className="mx-3 text-dark fw-bold">
+          Adquiere este producto en:
+        </span>
+        <PortalCard text={"Banco Popular"} />
       </div>
     </div>
   );

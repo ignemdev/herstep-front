@@ -2,6 +2,7 @@ import Stack from "react-bootstrap/Stack";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Logo from "@components/layout/Logo";
+import { Link } from "react-router-dom";
 
 const Login = () => (
   <Stack
@@ -34,16 +35,18 @@ const Login = () => (
               className="form-control border border-dark border-2"
             />
           </div>
-          <Button type="submit" className="text-light mt-5">
+          <Link to={"/inicio"} className="btn btn-primary text-light mt-5">
             Ingresar
-          </Button>
+          </Link>
         </form>
         <div className="mt-4">
           <span className="text-primary fw-normal">¿Ya tiene cuenta?</span>
-          <a className="text-dark fw-bold text-decoration-none" href="#">
-            {" "}
+          <Link
+            to={"/inicio"}
+            className="text-dark fw-bold text-decoration-none"
+          >
             Inicia Sesion
-          </a>
+          </Link>
         </div>
       </Stack>
     </Container>

@@ -7,13 +7,13 @@ const Headerbar = ({ userInitials }) => {
       id="headerbar"
       className="sticky-top bg-success p-5 d-flex align-items-center justify-content-between"
     >
-      <a
+      {/* <a
         className="btn btn-light d-flex text-primary fw-bold shadow-sm rounded-circle"
         href="#"
         role="button"
       >
         <FontAwesomeIcon icon={faArrowLeft} className="fs-3 py-1" />
-      </a>
+      </a> */}
       <a
         className="btn btn-light d-flex text-primary shadow-sm rounded-circle py-3"
         href="#"

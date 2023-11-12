@@ -9,7 +9,7 @@ import Steps from "@views/Steps/Steps";
 export const appRouting = createBrowserRouter([
   {
     path: "*",
-    element: <Navigate to="/soluciones" replace />,
+    element: <Navigate to="/inicio" replace />,
   },
   {
     path: "/login",
@@ -20,7 +20,7 @@ export const appRouting = createBrowserRouter([
     element: <HerStepApp />,
     children: [
       {
-        path: "soluciones",
+        path: "inicio",
         element: <Solutions />,
         index: true,
       },

@@ -31,49 +31,13 @@ const Sidebar = () => {
           id="menu"
         >
           <li className="nav-item my-3">
-            <a
-              href="#"
-              className="d-flex align-items-center nav-link px-0 text-dark fw-bold"
-            >
-              <FontAwesomeIcon icon={faHouse} className="fs-5" />
-              <span className="ms-4 d-none d-sm-inline">Inicio</span>
-            </a>
-          </li>
-          <li className="nav-item my-3">
             <NavLink
-              to={"soluciones"}
+              to={"/inicio"}
               className="d-flex align-items-center nav-link px-0 text-dark fw-bold"
             >
               <FontAwesomeIcon icon={faCreditCard} className="fs-5" />
-              <span className="ms-4 d-none d-sm-inline">Soluciones</span>
+              <span className="ms-4 d-none d-sm-inline">Inicio</span>
             </NavLink>
-          </li>
-          <li className="nav-item my-3">
-            <NavLink
-              to={"recursos"}
-              className="d-flex align-items-center nav-link px-0 text-dark fw-bold"
-            >
-              <FontAwesomeIcon icon={faBookOpen} className="fs-5" />
-              <span className="ms-4 d-none d-sm-inline">Recursos</span>
-            </NavLink>
-          </li>
-          <li className="nav-item my-3">
-            <a
-              href="#"
-              className="d-flex align-items-center nav-link px-0 text-dark fw-bold"
-            >
-              <FontAwesomeIcon icon={faPencilRuler} className="fs-5" />
-              <span className="ms-4 d-none d-sm-inline">Academia</span>
-            </a>
-          </li>
-          <li className="nav-item my-3">
-            <a
-              href="#"
-              className="d-flex align-items-center nav-link px-0 text-dark fw-bold"
-            >
-              <FontAwesomeIcon icon={faUserCircle} className="fs-5" />
-              <span className="ms-4 d-none d-sm-inline">Perfil</span>
-            </a>
           </li>
         </ul>
         <hr className="border border-primary border-2 opacity-100 w-100" />

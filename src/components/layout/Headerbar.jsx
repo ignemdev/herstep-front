@@ -5,7 +5,7 @@ const Headerbar = ({ userInitials }) => {
   return (
     <div
       id="headerbar"
-      className="bg-success p-5 d-flex align-items-center justify-content-between"
+      className="sticky-top bg-success p-5 d-flex align-items-center justify-content-between"
     >
       <a
         className="btn btn-light d-flex text-primary fw-bold shadow-sm rounded-circle"

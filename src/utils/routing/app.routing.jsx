@@ -4,6 +4,7 @@ import HerStepApp from "@/HerStepApp";
 import Login from "@views/Login/Login";
 import Solutions from "@views/Solutions/Solutions";
 import Resources from "@views/Resources/Resources";
+import Steps from "@views/Steps/Steps";
 
 export const appRouting = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ export const appRouting = createBrowserRouter([
       {
         path: "recursos",
         element: <Resources />,
+      },
+      {
+        path: "Pasos",
+        element: <Steps />,
       },
     ],
   },

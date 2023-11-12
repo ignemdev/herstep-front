@@ -10,14 +10,7 @@ const HerStepApp = () => {
           <Sidebar />
           <div className="col p-0">
             <Headerbar />
-            <div
-              id="content-wrapper"
-              className="p-5"
-              style={{
-                overflowY: "hidden",
-                maxHeight: "750px",
-              }}
-            >
+            <div id="content-wrapper" className="p-5">
               <Outlet />
             </div>
           </div>

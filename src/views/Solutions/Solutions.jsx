@@ -58,6 +58,10 @@ const Solutions = () => {
                 text={"¿Sabes que es una tarjeta de crédito?"}
                 icon={faCreditCard}
               />
+              <SolutionCard
+                text={"¿Sabes que es una tarjeta de crédito?"}
+                icon={faCreditCard}
+              />
             </div>
           </div>
           <div className="col">ad_banner</div>

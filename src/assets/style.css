@@ -4,3 +4,9 @@
   margin: 0;
   font-family: "Nunito Sans", sans-serif;
 }
+
+#login-background {
+  background-image: url("login-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

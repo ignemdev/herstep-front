@@ -3,17 +3,11 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import HerStepLogo from "@assets/logoA.svg";
 
-const backgroundStyle = {
-  backgroundImage: 'url("/src/assets/login-background.png")',
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-};
-
 const Login = () => (
   <Stack
+    id="login-background"
     gap={3}
     className="vh-100 justify-content-center bg-light"
-    style={backgroundStyle}
   >
     <Container style={{ maxWidth: "400px" }} className="p-0">
       <Stack gap={3} className="align-items-center">

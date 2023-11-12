@@ -1,7 +1,7 @@
 import Stack from "react-bootstrap/Stack";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
-import HerStepLogo from "@assets/logoA.svg";
+import Logo from "@components/layout/Logo";
 
 const Login = () => (
   <Stack
@@ -12,7 +12,7 @@ const Login = () => (
     <Container style={{ maxWidth: "400px" }} className="p-0">
       <Stack gap={3} className="align-items-center">
         <div className="mb-5">
-          <img src={HerStepLogo} alt="HerStep logo" />
+          <Logo />
         </div>
         <div className="p-2 fw-bold fs-4 text-dark mb-3">Login</div>
         <form className="d-flex flex-column w-100">
@@ -31,7 +31,7 @@ const Login = () => (
             </label>
             <input
               type="password"
-              className="form-control border border-primary border-dark border-2"
+              className="form-control border border-dark border-2"
             />
           </div>
           <Button type="submit" className="text-light mt-5">

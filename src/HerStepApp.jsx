@@ -1,12 +1,20 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet } from "react-router-dom";
+import Sidebar from "@components/layout/Sidebar";
 
 const HerStepApp = () => {
   return (
-      <main>
-        <h1>credito</h1>
-        <Outlet/>
-      </main>
-  )
-}
+    <main>
+      <div className="container-fluid">
+        <div className="row flex-nowrap">
+          <Sidebar />
+          <div className="col p-0">
+            <div>dd</div>
+            <Outlet />
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+};
 
-export default HerStepApp
+export default HerStepApp;

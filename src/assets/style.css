@@ -10,3 +10,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#sidebar .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-primary) !important;
+  background-color: transparent;
+}

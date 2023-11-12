@@ -11,6 +11,13 @@
   background-size: cover;
 }
 
+#headerbar {
+  background-image: url("logoB.svg");
+  background-position: 125% 1%;
+  background-size: 50% 350px;
+  background-repeat: no-repeat;
+}
+
 #sidebar .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: var(--bs-primary) !important;
